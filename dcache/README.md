@@ -30,7 +30,7 @@ channel_name
 
 Each execution of `sync-dcache2.sh` will update one *channel*. A specific authorization token, the `macaroon` file, is needed for each channel. Each token expires after 48h, but is updated as a part of the script execution. This thus needs to be run at least every 48h, otherwise the system will loose access to the server. **The initial macaroon needs to be directly provided by the AMPEL operators, it is not included in this repository.**
 
-The `manifest` directory contains information regarding which transients were modified at which times. The remaining folders contain individual object TransientViews.
+The `manifest` directory contains information regarding which transients were modified at which times. The remaining folders contain individual object TransientViews. Before syncing, put the empty manifest file included here [latest.json.gz](latest.json.gz) into the `manifest` directory. The 'ZTF*' directores will be created by the script as needed.
 
 
 ## Accessing the data
