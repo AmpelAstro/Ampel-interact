@@ -1,6 +1,6 @@
 # The AMPEL dCache local sync system
 
-Processed AMPEL data is stored as TransientViews through dCache. A WebDAV interface is setup to allow this information to be transferred to a local system for further analysis.
+Processed AMPEL data is stored as TransientViews through dCache. A WebDAV interface is setup to allow this information to be transferred to a local system for further analysis. The CA certificates required to connect to the dCache system using secure protocols can be obtained from the [https://wiki.egi.eu/wiki/EGI_IGTF_Release](IGTF trust anchors).
 
 ## Getting started
 
